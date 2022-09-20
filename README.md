@@ -5,6 +5,5 @@ XTENTH-CAR (Xperimental one-TENTH scaled vehicle platform for Connected autonomy
 <img src="https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/blob/main/images/XTENTH-CAR_assembled.JPG" width="600">
 </p>
 
-The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on Module (SOM), stereo camera, 2D LiDAR and open-source Electronic Speed Controller (ESC) with drivers written in the new Robot Operating System (ROS 2) to facilitate experimental CAV and AGV research that incorporate state-of-the-art computationally expensive algorithms such as Deep Reinforcement Learning.
+The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on Module (SOM), stereo camera, 2D LiDAR and open-source Electronic Speed Controller (ESC) with drivers written in the new Robot Operating System (ROS 2) to facilitate experimental CAV and AGV research that incorporate state-of-the-art computationally expensive algorithms such as Deep Reinforcement Learning. See [XTENTH-CAR/hardware](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/hardware) for full Bill of Materials (BOM), CAD files and hardware build guide.
 
-XTENTH-CAR Bill of Materials (BOM), CAD files and hardware build guide are available here [XTENTH-CAR/hardware](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/hardware).
