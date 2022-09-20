@@ -11,4 +11,10 @@ The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on
 
 
 ## Software
+NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (SDK) which includes bootloader, Linux kernel and Ubuntu desktop environment. XTENTH-CAR software is written using ROS 2 Foxy Fitzroy, and the ZED 2 stereo camera and YDLIDAR G2 ROS drivers require pre-installed SDKs.
 
+1. See [NVIDIA JetPack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool) to install/upgrade JetPack components. 
+
+2. Install [ROS 2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html).
+
+3. Install SDKs for ZED 2 stereo camera [ZED SDK for Jetson](https://www.stereolabs.com/docs/installation/jetson/) and YDLIDAR G2 [YDLIDAR/YDLidar-SDK](https://github.com/YDLIDAR/YDLidar-SDK).
