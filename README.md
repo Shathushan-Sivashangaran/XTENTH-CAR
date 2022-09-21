@@ -1,5 +1,5 @@
 # XTENTH-CAR
-XTENTH-CAR (Xperimental one-TENTH scaled vehicle platform for Connected autonomy and All-terrain Research) aims to increase accessibility of experimental Connected Autonomous Vehicle (CAV) and Autonomous Ground Vehicle (AGV) research with low upfront costs, and complete Autonomous Vehicle (AV) hardware and software architectures, similar to the full-sized X-CAR experimental vehicle platform, enabling efficient cross-platform development between small-scale and full-scale vehicles.
+XTENTH-CAR (Xperimental one-TENTH scaled vehicle platform for Connected autonomy and All-terrain Research) aims to increase accessibility of experimental Connected Autonomous Vehicle (CAV) and Autonomous Ground Vehicle (AGV) research with low upfront costs, and complete Autonomous Vehicle (AV) hardware and software architectures, similar to the full-sized X-CAR experimental vehicle platform, enabling efficient cross-platform development between small-scale and full-scale vehicles [1], [2].
 
 <p align="center">
 <img src="https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/blob/main/images/XTENTH-CAR_assembled.JPG" width="600">
@@ -19,4 +19,11 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 
 3. Install SDKs for ZED 2 stereo camera [ZED SDK for Jetson](https://www.stereolabs.com/docs/installation/jetson/) and YDLIDAR G2 [YDLIDAR/YDLidar-SDK](https://github.com/YDLIDAR/YDLidar-SDK).
 
-4. Clone [xtenthcar_ros2_ws](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/xtenthcar_ros2_ws) into the src directory of a newly created ROS 2 workspace named xtenthcar_ros2_ws, and build the workspace by running 'colcon build' in the root directory. 
+4. Clone [xtenthcar_ros2_ws](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/xtenthcar_ros2_ws) into the src directory of a newly created ROS 2 workspace named xtenthcar_ros2_ws, and build the workspace by running `colcon build` in the root directory. 
+
+
+## Cite
+
+[1] S. Sivashangaran and A. Eskandarian, “XTENTH-CAR: A Proportionally Scaled Experimental Vehicle Platform for Connected Autonomy and All-Terrain Research,” arXiv preprint, 2022.
+
+[2] G. Mehr, P. Ghorai, C. Zhang, A. Nayak, D. Patel, S. Sivashangaran, and A. Eskandarian, “X-CAR: An experimental vehicle platform for connected autonomy research,” IEEE Intelligent Transportation Systems Magazine, pp. 2–19, 2022.
