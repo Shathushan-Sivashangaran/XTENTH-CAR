@@ -15,6 +15,8 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 
 1. See [NVIDIA JetPack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool) to install/upgrade JetPack components. 
 
-2. Install [ROS 2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html).
+2. Install [ROS 2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html) and [colcon](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) to build ROS 2 packages.
 
 3. Install SDKs for ZED 2 stereo camera [ZED SDK for Jetson](https://www.stereolabs.com/docs/installation/jetson/) and YDLIDAR G2 [YDLIDAR/YDLidar-SDK](https://github.com/YDLIDAR/YDLidar-SDK).
+
+4. Clone [xtenthcar_ros2_ws](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/xtenthcar_ros2_ws) into the src directory of a newly created ROS 2 workspace named xtenthcar_ros2_ws, and build the workspace by running 'colcon build' in the root directory. 
