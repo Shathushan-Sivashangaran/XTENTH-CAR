@@ -21,7 +21,7 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 
 4. Install ROS messages for vehicles using front-wheel Ackermann steering [ackermann_msgs](https://index.ros.org/r/ackermann_msgs/#foxy), [ROS 2 joystick driver](https://index.ros.org/p/joy/#foxy) and [ROS 2 joystick teleop package](https://index.ros.org/p/teleop_tools/#foxy).
 
-5. Clone the contents of [XTENTH-CAR/xtenthcar_ros2_ws](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/xtenthcar_ros2_ws) into the src directory of a newly created ROS 2 workspace `xtenthcar_ros2_ws/src`, and build the workspace by running `colcon build` in the root directory. 
+5. Clone the contents of [XTENTH-CAR/xtenthcar_ws](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/xtenthcar_ws) into the src directory of a newly created ROS 2 workspace `xtenthcar_ros2_ws/src`, and build the workspace by running `colcon build` in the root directory. 
 
 
 ## Cite
