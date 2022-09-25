@@ -38,16 +38,25 @@ source install/setup.bash
 `/scan`
 
 `vesc/odom`
+
 `vesc/drive AckermannDriveStamped`
 
 `/zed2/zed_node/rgb/image_rect_color`
+
 `/zed2/zed_node/point_cloud/cloud_registered`
+
 `/zed2/zed_node/obj_det/objects`
+
 `/zed2/zed_node/imu/data`
+
 `/zed2/zed_node/imu/mag`
+
 `/zed2/zed_node/atm_press`
+
 `/zed2/zed_node/pose`
+
 `/zed2/zed_node/path_map`
+
 `/zed2/zed_node/path_odom`
 
 
