@@ -35,11 +35,6 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
-`/scan`
-
-`vesc/odom`
-
-`vesc/drive AckermannDriveStamped`
 
 `/zed2/zed_node/rgb/image_rect_color`
 
@@ -58,6 +53,12 @@ source install/setup.bash
 `/zed2/zed_node/path_map`
 
 `/zed2/zed_node/path_odom`
+
+`/scan`
+
+`vesc/odom`
+
+`vesc/drive AckermannDriveStamped`
 
 
 
