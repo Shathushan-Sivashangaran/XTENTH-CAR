@@ -1,7 +1,9 @@
 # UDEV Rules
 
-`sudo apt update
-sudo apt install nano`
+```
+sudo apt update
+sudo apt install nano
+```
 
 `sudo nano /etc/udev/rules.d/99-vesc.rules`
 
@@ -11,7 +13,9 @@ sudo apt install nano`
 
 `KERNEL=="js[0-9]*", ACTION=="add", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c21f", SYMLINK+="input/joypad-f710"`
 
-`sudo udevadm control --reload-rules
-sudo udevadm trigger`
+```
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
 
 Reboot the system.
