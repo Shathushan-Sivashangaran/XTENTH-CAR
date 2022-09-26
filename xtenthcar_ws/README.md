@@ -69,29 +69,26 @@ sudo udevadm trigger
 
 ## Topics
 
-`/zed2/zed_node/rgb/image_rect_color`
+`vesc/drive`: Publish `AckermannDriveStamped` messages to VESC.
 
-`/zed2/zed_node/point_cloud/cloud_registered`
+`vesc/odom`: Pose and velocity data published by VESC.
 
-`/zed2/zed_node/obj_det/objects`
+`/scan`: Planer laser range data published by YDLIDAR G2.
 
-`/zed2/zed_node/imu/data`
+`/zed2/zed_node/rgb/image_rect_color`: RGB color rectified image.
 
-`/zed2/zed_node/imu/mag`
+`/zed2/zed_node/point_cloud/cloud_registered`: Registered color point cloud.
 
-`/zed2/zed_node/atm_press`
+`/zed2/zed_node/obj_det/objects`: Object detected frame by frame when the `enable_obj_det` service is called.
 
-`/zed2/zed_node/pose`
+`/zed2/zed_node/imu/data`: Accelerometer, gyroscope, and orientation data in Earth frame.
 
-`/zed2/zed_node/path_map`
+`/zed2/zed_node/imu/mag`: Magnetometer data.
 
-`/zed2/zed_node/path_odom`
+`/zed2/zed_node/atm_press`: Atmospheric pressure data.
 
-`/scan`
+`/zed2/zed_node/pose`: Absolute 3D position and orientation relative to the Map frame (Sensor Fusion algorithm + SLAM).
 
-`vesc/odom`
+`/zed2/zed_node/path_map`: Sequence of camera poses in Map frame.
 
-`vesc/drive AckermannDriveStamped`
-
-
-
+`/zed2/zed_node/path_odom`: Sequence of camera odometry poses in Map frame.
