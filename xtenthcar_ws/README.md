@@ -2,7 +2,11 @@
 
 ## Dependencies
 
-Install ROS messages for vehicles using front-wheel Ackermann steering [ackermann_msgs](https://index.ros.org/r/ackermann_msgs/#foxy) and add the following ROS 2 packages to the src directory of the workspace. 
+Install ROS messages for vehicles using front-wheel Ackermann steering [ackermann_msgs](https://index.ros.org/r/ackermann_msgs/#foxy).
+
+The YDLIDAR and ZED stereo camera ROS drivers require pre-installed SDKs. Install [YDLIDAR SDK](https://github.com/YDLIDAR/YDLidar-SDK) and [ZED SDK for Jetson](https://www.stereolabs.com/docs/installation/jetson/).
+
+Add the following ROS 2 packages to the src directory of the workspace. 
 
 1. [ROS 2 joystick driver](https://index.ros.org/p/joy/#foxy).
 2. [ROS 2 YDLIDAR driver](https://github.com/YDLIDAR/ydlidar_ros2_driver).
