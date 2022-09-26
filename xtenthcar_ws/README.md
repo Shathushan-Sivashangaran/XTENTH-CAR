@@ -2,13 +2,19 @@
 
 ## Dependencies
 
+Install ROS messages for vehicles using front-wheel Ackermann steering [ackermann_msgs](https://index.ros.org/r/ackermann_msgs/#foxy) and add the following ROS 2 packages to the src directory of the workspace. 
+
+1. [ROS 2 joystick driver](https://index.ros.org/p/joy/#foxy)
+2. [ROS 2 YDLIDAR driver](https://index.ros.org/p/teleop_tools/#foxy](https://github.com/YDLIDAR/ydlidar_ros2_driver).
+3. [ROS 2 ZED driver](https://github.com/stereolabs/zed-ros2-wrapper).
+4. [ROS 2 ZED examples for Rviz visualization](https://github.com/stereolabs/zed-ros2-examples).
+5. [ROS 2 image_common package](https://github.com/ros-perception/image_common/tree/ros2).
+
+The ZED driver requires image_common v3.0.0
+
 ```
-git clone https://github.com/ros-perception/image_common.git --branch ros2
 cd image_common
 git reset --hard a62ab876da2599627fe6a86bbc79040c62509422 # Reset to Release Tag: 3.0.0
-cd ~/zed_ros2_ws/
-colcon build --symlink-install
-source install/setup.bash
 ```
 
 ## UDEV Rules
