@@ -1,4 +1,4 @@
-# XTENTH-CAR ROS 2 Workspace
+# ROS 2 Workspace
 
 ## Dependencies
 
