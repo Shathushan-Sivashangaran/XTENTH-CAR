@@ -24,7 +24,7 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 5. Build the workspace by running `colcon build` in the workspace root directory.
 
 
-## Citations
+## Cite
 
 For more information on XTENTH-CAR and full-size X-CAR refer to the following papers. Cite [1] if XTENTH-CAR was helpful to your research.
 
