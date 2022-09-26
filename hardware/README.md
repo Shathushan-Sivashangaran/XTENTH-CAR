@@ -20,7 +20,9 @@ Acquire all the components in the Bill of Materials, and laser cut the acrylic s
 
 9. Add the NP-F970 8800mAh battery to the SMALLRIG NP-F battery adapter plate, and connect it to the NVIDIA Jetson Orin AGX Developer Kit using a 5.5mm x 2.5mm 1' DC power cable.
 
-10. Boot the Jetson Orin. Attach keyboard, mouse and monitor to install XTENTH-CAR software. Remove the batteries when not in use.
+10. Boot the Jetson Orin. Attach keyboard, mouse and monitor to install XTENTH-CAR software.
+
+11. Remove the batteries when not in use.
 
 
 
