@@ -1,4 +1,4 @@
-# ROS 2 Workspace
+# XTENTH-CAR ROS 2 Workspace
 
 ## Dependencies
 
@@ -23,7 +23,7 @@ git reset --hard a62ab876da2599627fe6a86bbc79040c62509422 # Reset to Release Tag
 
 ## UDEV Rules
 
-XTENTH-CAR requires knowledge of device names assigned by the operating system for VESC, YDLIDAR G2 and F710 Wireless Gamepad. These names can vary each time the Jetson SOM is rebooted. To assign persistent device names, use the udev utility. 
+XTENTH-CAR requires knowledge of device names assigned by the operating system for VESC, YDLIDAR G2 and F710 Wireless Gamepad. These names can vary each time the Jetson SOM is rebooted. To assign stable device names, use the udev utility. 
 
 1. Install the GNU nano text editor.
 
