@@ -11,9 +11,9 @@ The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on
 
 
 ## Software Installation
-NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (SDK) that includes bootloader, Linux kernel and Ubuntu desktop environment. XTENTH-CAR software is written using ROS 2 Foxy Fitzroy on JetPack v5+, which runs Ubuntu 20.04 natively.
+NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (SDK) which includes bootloader, Linux kernel and Ubuntu desktop environment. XTENTH-CAR software is written using ROS 2 Foxy Fitzroy on JetPack v5+, which runs Ubuntu 20.04 natively.
 
-1. See [NVIDIA JetPack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool) to install/upgrade JetPack components which include CUDA toolkit, cuDNN, TensorRT, OpenCV, NVIDIA container runtime with Docker integration, Multimedia API and NVSCI.
+1. See [NVIDIA JetPack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool) to install/upgrade JetPack components that include CUDA toolkit, cuDNN, TensorRT, OpenCV, NVIDIA container runtime with Docker integration, Multimedia API and NVSCI.
 
 2. Install [ROS 2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [colcon](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) and [rosdep](https://docs.ros.org/en/foxy/Tutorials/Intermediate/Rosdep.html) to build ROS 2 packages.
 
@@ -21,10 +21,12 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 
 4. See [XTENTH-CAR/xtenthcar_ws/README.md](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/blob/main/xtenthcar_ws/README.md) to install dependencies and create udev rules.
 
-5. Run `colcon build` in the workspace root directory to build it.
+5. Build the workspace by running `colcon build` in the workspace root directory.
 
 
-## Cite
+## Citations
+
+For more information on XTENTH-CAR and full-size X-CAR refer to the following papers. Cite [1] if XTENTH-CAR was useful for your research.
 
 [1] S. Sivashangaran and A. Eskandarian, “XTENTH-CAR: A Proportionally Scaled Experimental Vehicle Platform for Connected Autonomy and All-Terrain Research,” arXiv preprint, 2022.
 
