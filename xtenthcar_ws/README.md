@@ -5,7 +5,7 @@
 Install ROS messages for vehicles using front-wheel Ackermann steering [ackermann_msgs](https://index.ros.org/r/ackermann_msgs/#foxy) and add the following ROS 2 packages to the src directory of the workspace. 
 
 1. [ROS 2 joystick driver](https://index.ros.org/p/joy/#foxy).
-2. [ROS 2 YDLIDAR driver](https://index.ros.org/p/teleop_tools/#foxy](https://github.com/YDLIDAR/ydlidar_ros2_driver).
+2. [ROS 2 YDLIDAR driver](https://github.com/YDLIDAR/ydlidar_ros2_driver).
 3. [ROS 2 ZED driver](https://github.com/stereolabs/zed-ros2-wrapper).
 4. [ROS 2 ZED examples for Rviz visualization](https://github.com/stereolabs/zed-ros2-examples).
 5. [ROS 2 image_common package](https://github.com/ros-perception/image_common/tree/ros2).
