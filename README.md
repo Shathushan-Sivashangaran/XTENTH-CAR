@@ -11,7 +11,7 @@ The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on
 
 
 ## Software Installation
-NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (SDK) which includes bootloader, Linux kernel and Ubuntu desktop environment. XTENTH-CAR software is written using ROS 2 Foxy Fitzroy on JetPack v5+, which runs Ubuntu 20.04 natively.
+NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (SDK) that includes bootloader, Linux kernel and Ubuntu desktop environment. XTENTH-CAR software is written using ROS 2 Foxy Fitzroy on JetPack v5+, which runs Ubuntu 20.04 natively.
 
 1. See [NVIDIA JetPack SDK](https://docs.nvidia.com/jetson/jetpack/install-jetpack/index.html#package-management-tool) to install/upgrade JetPack components which include CUDA toolkit, cuDNN, TensorRT, OpenCV, NVIDIA container runtime with Docker integration, Multimedia API and NVSCI.
 
