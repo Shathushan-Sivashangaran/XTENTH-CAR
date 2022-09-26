@@ -24,21 +24,39 @@ sudo apt install nano
 
 2. Assign VESC the name `/dev/sensors/vesc`.
 
-`sudo nano /etc/udev/rules.d/99-vesc.rules`
+```
+sudo nano /etc/udev/rules.d/99-vesc.rules
+```
 
-Copy `KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666", GROUP="dialout", SYMLINK+="sensors/vesc"` in a single line and save the file.
+Copy the VESC rule in a single line and save the file.
+
+```
+KERNEL=="ttyACM[0-9]*", ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666", GROUP="dialout", SYMLINK+="sensors/vesc"
+```
 
 3. Assign YDLIDAR G2 the name `/dev/sensors/ydlidar`.
 
-`sudo nano /etc/udev/rules.d/99-ydlidar.rules` 
+```
+sudo nano /etc/udev/rules.d/99-ydlidar.rules
+```
 
-Copy `KERNEL=="ttyUSB[0-9]*", ACTION=="add", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="0666", GROUP="dialout", SYMLINK+="/sensors/ydlidar"` in a single line and save the file.
+Copy the YDLIDAR G2 rule in a single line and save the file.
+
+```
+KERNEL=="ttyUSB[0-9]*", ACTION=="add", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE="0666", GROUP="dialout", SYMLINK+="/sensors/ydlidar"
+```
 
 4. Assign F710 Wireless Gamepad the name `/dev/input/joypad-f710`.
 
-`sudo nano /etc/udev/rules.d/99-joypad-f710.rules`
+```
+sudo nano /etc/udev/rules.d/99-joypad-f710.rules
+```
 
-Copy `KERNEL=="js[0-9]*", ACTION=="add", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c21f", SYMLINK+="input/joypad-f710"` in a single line and save the file.
+Copy the F710 Wireless Gamepad rule in a single line and save the file.
+
+```
+KERNEL=="js[0-9]*", ACTION=="add", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c21f", SYMLINK+="input/joypad-f710"
+```
 
 5. Activate the rules.
 
