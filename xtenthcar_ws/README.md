@@ -1,4 +1,17 @@
-# UDEV Rules
+# XTENTH-CAR ROS 2 Workspace
+
+## Dependencies
+
+```
+git clone https://github.com/ros-perception/image_common.git --branch ros2
+cd image_common
+git reset --hard a62ab876da2599627fe6a86bbc79040c62509422 # Reset to Release Tag: 3.0.0
+cd ~/zed_ros2_ws/
+colcon build --symlink-install
+source install/setup.bash
+```
+
+## UDEV Rules
 
 ```
 sudo apt update
@@ -24,17 +37,7 @@ sudo udevadm trigger
 
 Reboot the system.
 
-# ROS 2 Topics
-
-```
-git clone https://github.com/ros-perception/image_common.git --branch ros2
-cd image_common
-git reset --hard a62ab876da2599627fe6a86bbc79040c62509422 # Reset to Release Tag: 3.0.0
-cd ~/zed_ros2_ws/
-colcon build --symlink-install
-source install/setup.bash
-```
-
+## ROS 2 Topics
 
 `/zed2/zed_node/rgb/image_rect_color`
 
