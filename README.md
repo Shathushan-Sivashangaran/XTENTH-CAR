@@ -26,9 +26,9 @@ NVIDIA Jetson series SOMs utilize the NVIDIA JetPack Software Development Kit (S
 
 ## Citations
 
-For more information on XTENTH-CAR and full-size X-CAR refer to the following papers. Cite [1] if XTENTH-CAR was helpful for your research.
+For more information on XTENTH-CAR and full-size X-CAR refer to the following papers. Cite [1] if XTENTH-CAR was helpful to your research.
 
-`[1] S. Sivashangaran and A. Eskandarian, “XTENTH-CAR: A Proportionally Scaled Experimental Vehicle Platform for Connected Autonomy and All-Terrain Research,” arXiv preprint, 2022.`
+*[1] S. Sivashangaran and A. Eskandarian, “XTENTH-CAR: A Proportionally Scaled Experimental Vehicle Platform for Connected Autonomy and All-Terrain Research,” arXiv preprint, 2022.*
 
-`[2] G. Mehr, P. Ghorai, C. Zhang, A. Nayak, D. Patel, S. Sivashangaran, and A. Eskandarian, “X-CAR: An Experimental Vehicle Platform for Connected Autonomy Research,” IEEE Intelligent Transportation Systems Magazine, pp. 2–19, 2022.`
+*[2] G. Mehr, P. Ghorai, C. Zhang, A. Nayak, D. Patel, S. Sivashangaran, and A. Eskandarian, “X-CAR: An Experimental Vehicle Platform for Connected Autonomy Research,” IEEE Intelligent Transportation Systems Magazine, pp. 2–19, 2022.*
 
