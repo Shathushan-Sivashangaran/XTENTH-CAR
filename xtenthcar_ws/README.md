@@ -37,7 +37,7 @@ sudo udevadm trigger
 
 Reboot the system.
 
-## ROS 2 Topics
+## Topics
 
 `/zed2/zed_node/rgb/image_rect_color`
 
