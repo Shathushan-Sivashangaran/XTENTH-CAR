@@ -7,7 +7,7 @@ XTENTH-CAR (eXperimental one-TENTH scaled vehicle platform for Connected autonom
 
 
 ## Hardware Build
-The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on Module (SOM), stereo camera with built-in Inertial Measurement Unit (IMU), barometer and magnetometer, 2D LiDAR and VESC, an open-source Electronic Speed Controller (ESC) with drivers written in the new Robot Operating System (ROS 2) to facilitate experimental CAV and AGV research that incorporate state-of-the-art computationally expensive algorithms such as Deep Reinforcement Learning. See [XTENTH-CAR/hardware](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/hardware) for full Bill of Materials (BOM), CAD files and hardware build guide.
+The platform is equipped with the best-in-class NVIDIA Jetson AGX Orin System on Module (SOM), stereo camera with built-in Inertial Measurement Unit (IMU), barometer and magnetometer, 2D LiDAR and VESC, an open-source Electronic Speed Controller (ESC) with drivers written in the new Robot Operating System (ROS 2) to facilitate experimental CAV and AGV research that incorporate state-of-the-art computationally expensive algorithms such as Deep Reinforcement Learning. See [XTENTH-CAR/hardware](https://github.com/Shathushan-Sivashangaran/XTENTH-CAR/tree/main/hardware) for full Bill of Materials (BOM), CAD files and hardware assembly guide.
 
 
 ## Software Installation
